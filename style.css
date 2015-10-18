@@ -1,0 +1,293 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*border: 1px solid green;*/
+	margin: 0 auto;
+}
+
+/*body {
+	background: url('assets/bg.jpg') no-repeat center center fixed;
+	background-size: cover;
+}*/
+
+body {
+	top: 0;
+	margin: 0;
+	padding: 0;
+	font-family: "Ubuntu", "Calibri", sans-serif;
+}
+
+header {
+	top: 0;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	height: 180px;
+	background: url('assets/header-bg.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+header .container {
+	width: 100%;
+	margin: 0 auto;
+	color: #000;
+	text-align: center;
+}
+
+header img {
+	height: 180px; 
+	width: 180px;
+	float: left;
+}
+
+header h1 {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	color: #000;
+	text-shadow: 3px 3px #fff;
+	font-size: 5em;
+	font-weight: bold;
+	letter-spacing: 30px;
+	text-transform: uppercase;
+}
+
+header p {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #000;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+}
+
+header h3 {
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 19px;
+	border-right: 3px solid #000;
+	border-left: 3px solid #000; 
+	background-color: #fff;
+}
+
+
+nav {
+	width: 100%;
+	margin-bottom: 10px;
+	background-color: #22284a;
+	color: #fff;
+}
+
+nav .container {
+	margin-left: 20px;
+}
+nav ul {
+	display: block;
+	margin: 0;
+	/*margin-left: 200px;*/
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: -2px;
+}
+
+nav a {
+	display: inline-block;
+	padding: 20px 40px;
+	border: 2px solid #fff;
+	border-radius: 0 30px;
+	/*padding-left: 50px;*/
+	text-decoration: none;
+	color: #fff;
+}
+
+nav a:hover {
+	background-color: #fff;
+	color: #22284a;
+}
+
+.right a {
+	border-radius: 0 30px;
+	font-size: 1em;
+	background-color: #49a336;
+}
+.right a:hover {
+	background-color: #dcd722;
+	color: #22284a;
+}
+
+#quote {
+	margin: 0 auto;  
+	font-weight: 300;
+	color: #000;
+	text-align: center;
+}
+
+main {
+	width: 100%;
+	margin: 0;
+	margin-top: 15px;
+	/*background-color: #ccc;*/
+}
+
+/*main > .container {
+	margin: 0;
+	padding: 0;
+	height: 400px;
+}*/
+
+aside {
+	width: 100%;
+	height: 30px;
+	margin: 15px 0;
+	background-color: #5b7418;
+	color: #000;
+}
+
+aside .container {
+	display: block;
+}
+
+aside h2 {
+	display: inline-block;
+	height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	background-color: #fff;
+	color: #3952B3;
+}
+
+.top {
+	position: relative;
+	width: 100%;
+	padding: 0;
+	/*background: url('assets/top-ms.jpg') no-repeat center center;
+	background-size: cover;*/
+}
+
+.top .container {
+	margin: 0 auto;
+	padding: 0;
+	height: 480px;
+}
+
+#top-left, #top-right {
+	top: 30px;
+	position: absolute;
+	display: inline-block;
+	width: 45%;
+	height: 400px;
+	margin: 10px 40px;
+}
+
+#top-left {
+	left: 10px;
+	background: url('assets/logo.jpg') no-repeat center center;
+	background-size: contain;
+}
+
+#top-left div {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: rgba(185,117,49,0.5);
+	background-color: rgba(0,0,0,0.5);
+}
+
+#top-right {
+	right: 10px;
+	background: url('assets/top-right.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+#top-right div {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#top-right iframe {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+#right, #left {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	margin-top: 5px;
+	padding: 10px;
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+}
+
+#right {
+	right: 0;
+}
+
+#left {
+	left: 0;
+	width: 20%;
+}
+
+#top-right a:hover {
+	background-color: rgb(185,117,49);
+	color: #fff;
+}
+
+ #no-scroll::-webkit-scrollbar	{
+        width: 0 !important;
+    }
+
+.top h2 {
+	padding-top: 5px;
+	color: #fff;
+	text-align: center;
+}
+
+.top p {
+	margin-top: 10px;
+	padding: 10px 15px;
+	background-color: rgba(0,0,0,0.7);
+	color: #dcd722;
+}
+.mid {
+	width: 100%;
+	height: 500px;
+	margin: 0;
+	padding: 10px;
+	background: url('assets/main-bg.jpg') no-repeat center center;
+	background-size: cover;
+	/*background-color: #bab9e8;*/
+}
+
+footer {
+	bottom: 0;
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #ccc;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
